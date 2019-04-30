@@ -43,9 +43,13 @@ class App extends Component{
         <Header />
         <SearchBox searchChange={onSearcChange}/>
         <Scroll>
-          <ErrorBoundry>
-            <CardList robots={filteredRobots}/>
-          </ErrorBoundry>
+          { isPending ?
+                        <h1>Loading</h1>
+                      :
+                        <ErrorBoundry>
+                          <CardList robots={filteredRobots}/>
+                        </ErrorBoundry>
+          }
         </Scroll>
       </div>
     );
