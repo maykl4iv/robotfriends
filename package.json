@@ -5,10 +5,10 @@
   "homepage": "https://maykl4iv.github.io/robotfriends",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-redux": "^6.0.1",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^4.0.0",
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
